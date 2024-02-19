@@ -1,0 +1,73 @@
+/* Réinitialisation des styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styles pour le header */
+header {
+    background-color: #c8c0eb;
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #720404;
+    text-decoration: none;
+}
+
+/* Styles pour la section principale */
+section {
+    padding: 20px;
+}
+
+/* Styles généraux pour le body */
+body {
+    color: rgb(59, 59, 197);
+}
+
+/* Styles pour le footer */
+footer {
+    background-color: #c8c0eb;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Media query pour rendre la mise en page responsive */
+@media screen and (max-width: 600px) {
+    header {
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 24px;
+    }
+
+    nav ul li {
+        margin-right: 10px;
+    }
+
+    section {
+        padding: 10px;
+    }
+
+    footer {
+        padding: 5px;
+    }
+}
